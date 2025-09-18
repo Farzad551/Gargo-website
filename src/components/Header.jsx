@@ -29,7 +29,7 @@ const Header = ({ darkMode, toggleDarkMode }) => {
     <header className={`site-header ${isScrolled ? "is-scrolled" : ""}`}>
       <div className="container header-container">
         <div className="header-logo">
-          <h2>Afghan|Gargo</h2>
+          <h2>AfghanGargo</h2>
         </div>
 
         <nav
