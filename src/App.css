@@ -1912,3 +1912,253 @@ body {
     gap: 1rem;
   }
 }
+
+/* Testimonials Section */
+.testimonials-section {
+  padding: 5rem 0;
+  background: linear-gradient(to bottom, #f9fafc 0%, #ffffff 100%);
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a365d;
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  font-size: 1.1rem;
+  color: #718096;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.testimonials-container {
+  margin-bottom: 5rem;
+}
+
+.testimonial-slider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.testimonial-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  max-width: 700px;
+  text-align: center;
+  position: relative;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.testimonial-card.fading {
+  opacity: 0.7;
+  transform: scale(0.98);
+}
+
+.quote-icon {
+  position: absolute;
+  top: 1.5rem;
+  left: 2rem;
+  font-size: 4rem;
+  color: #e2e8f0;
+  font-family: Georgia, serif;
+  line-height: 1;
+}
+
+.testimonial-content {
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  color: #2d3748;
+  position: relative;
+  z-index: 1;
+}
+
+.testimonial-author {
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1.5rem;
+}
+
+.testimonial-author h4 {
+  margin-bottom: 0.5rem;
+  color: #1a365d;
+  font-weight: 600;
+}
+
+.author-position {
+  color: #4a5568;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.author-company {
+  color: #718096;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.stars {
+  display: flex;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.star {
+  color: #cbd5e0;
+  font-size: 1.2rem;
+}
+
+.star.filled {
+  color: #f6ad55;
+}
+
+.slider-btn {
+  background: white;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.slider-btn:hover {
+  background: #4299e1;
+  color: white;
+  border-color: #4299e1;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(66, 153, 225, 0.2);
+}
+
+.testimonial-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: none;
+  background-color: #e2e8f0;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.dot.active {
+  background-color: #4299e1;
+  transform: scale(1.2);
+}
+
+.dot:hover {
+  background-color: #a0aec0;
+}
+
+.partners-section {
+  text-align: center;
+  padding-top: 3rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+.partners-section h3 {
+  color: #4a5568;
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.partner-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.partner-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.partner-logo:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.07);
+}
+
+.logo-abbr {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #4299e1;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.logo-name {
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 0.95rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .testimonial-slider {
+    gap: 1rem;
+  }
+  
+  .testimonial-card {
+    padding: 2rem 1.5rem;
+  }
+  
+  .slider-btn {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .partner-logos {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  
+  .testimonial-content {
+    font-size: 1.1rem;
+  }
+  
+  .partner-logos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

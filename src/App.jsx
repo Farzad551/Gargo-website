@@ -7,6 +7,7 @@ import Services from "./components/Services";
 import Calculator from "./components/Calculator";
 import Coverage from "./components/Coverage";
 import Tracking from "./components/Tracking";
+import Testimonials from "./components/Testimonials";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
         <Calculator />
         <Coverage />
         <Tracking />
+        <Testimonials />
 
       </div>
         
