@@ -8,6 +8,8 @@ import Calculator from "./components/Calculator";
 import Coverage from "./components/Coverage";
 import Tracking from "./components/Tracking";
 import Testimonials from "./components/Testimonials";
+import Contact from "./components/Contact";
+
 
 
 function App() {
@@ -28,7 +30,7 @@ function App() {
         <Coverage />
         <Tracking />
         <Testimonials />
-
+        <Contact />
       </div>
         
   )
