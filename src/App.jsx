@@ -9,7 +9,7 @@ import Coverage from "./components/Coverage";
 import Tracking from "./components/Tracking";
 import Testimonials from "./components/Testimonials";
 import Contact from "./components/Contact";
-
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -31,6 +31,7 @@ function App() {
         <Tracking />
         <Testimonials />
         <Contact />
+        <Footer />
       </div>
         
   )
