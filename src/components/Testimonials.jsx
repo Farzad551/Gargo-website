@@ -7,15 +7,15 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
+      name: 'Sarah Quraishi',
       position: 'Supply Chain Director',
       company: 'TechGlobal Inc.',
-      content: 'GlobalShipp has transformed our supply chain. Their reliable service and real-time tracking have reduced our shipping costs by 23% in the first year.',
+      content: 'AfghanGargo has transformed our supply chain. Their reliable service and real-time tracking have reduced our shipping costs by 23% in the first year.',
       rating: 5
     },
     {
       id: 2,
-      name: 'Michael Chen',
+      name: 'Ahmad Dawran',
       position: 'Logistics Manager',
       company: 'Oceanic Imports',
       content: 'The customs clearance service is exceptional. What used to take weeks now happens in days, with no paperwork headaches on our end.',
@@ -23,7 +23,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      name: 'Elena Rodriguez',
+      name: 'Elena Malakzada',
       position: 'Operations Director',
       company: 'EuroFashion Retail',
       content: 'Their warehousing solutions have helped us scale our business efficiently. The inventory management system is intuitive and powerful.',

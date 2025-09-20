@@ -49,7 +49,7 @@ const Contact = () => {
     {
       title: 'Customer Support',
       details: 'Our dedicated team is ready to assist you with any inquiries',
-      email: 'support@globalshipp.com',
+      email: 'support@afghangargo.com',
       phone: '+93 (0) 700-3476-99',
       hours: 'Available 24/7',
       icon: '📞'
@@ -57,7 +57,7 @@ const Contact = () => {
     {
       title: 'Sales Department',
       details: 'Interested in our services? Our sales team can help',
-      email: 'sales@globalshipp.com',
+      email: 'sales@afghangargo.com',
       phone: '+1 (800) 123-SALE',
       hours: 'Mon-Fri: 8:00 AM - 6:00 PM EST',
       icon: '💼'
@@ -65,7 +65,7 @@ const Contact = () => {
     {
       title: 'Emergency Support',
       details: 'Urgent shipping issues requiring immediate attention',
-      email: 'emergency@globalshipp.com',
+      email: 'emergency@afghangargo.com',
       phone: '+1 (800) 123-HELP',
       hours: '24/7 Priority Line',
       icon: '🚨'
